@@ -10,8 +10,8 @@ public class Golem : Mower
         Rotate(_target);
     }
 
-    public Transform AssignTarget(Transform target)
+    public void AssignTarget(Transform target)
     {
-        return _target = target;
+        _target = target;
     }
 }
